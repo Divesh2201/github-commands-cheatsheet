@@ -72,6 +72,10 @@ Copy the url and change `/tree/<branch-name>` to `/trunk`
 
 24. To commit the pulled changes : `git push origin master`
 
+#### Remove files from a Git repository
+25.  Remove files from the working tree and from the index : `git rm "<pathspec>..."` 
+
+
 #### This Repo is open for all, if you wish to contribute something not present
 i) Fork the Repo
 
