@@ -51,7 +51,7 @@ Copy the url and change `/tree/<branch-name>` to `/trunk`
 15. And Then : `svn checkout <url>`
 
 #### Squash commits, even after they being pushed
-16. `git rebase -i origin/master~<no.> master`
+16. `git rebase -i origin/master~<number_of_commits> master`
 
 17. `git push origin +master` (master can be any branch)
 
