@@ -69,7 +69,7 @@ Copy the url and change `/tree/<branch-name>` to `/trunk`
 
 #### Forked Repo Updates
 23. pull latest code from upstream <branch> to fork default branch : `git pull upstream master` 
-24. To dpecify a new remote upstream repository that will be synced with the fork:<br/>
+24. To specify a new remote upstream repository that will be synced with the fork:<br/>
     `git remote add upstream https://github.com/ORIGINAL_OWNER/ORIGINAL_REPOSITORY.git` 
  
 26. To verify the new upstream repository you've specified for your fork: `git remote -v`
