@@ -69,11 +69,15 @@ Copy the url and change `/tree/<branch-name>` to `/trunk`
 
 #### Forked Repo Updates
 23. pull latest code from upstream <branch> to fork default branch : `git pull upstream master` 
+24. To dpecify a new remote upstream repository that will be synced with the fork:<br/>
+    `git remote add upstream https://github.com/ORIGINAL_OWNER/ORIGINAL_REPOSITORY.git` 
+ 
+26. To verify the new upstream repository you've specified for your fork: `git remote -v`
 
-24. To commit the pulled changes : `git push origin master`
+26. To commit the pulled changes : `git push origin master`
 
 #### Remove files from a Git repository
-25.  Remove files from the working tree and from the index : `git rm "<pathspec>..."` 
+27.  Remove files from the working tree and from the index : `git rm "<pathspec>..."` 
 
 
 #### This Repo is open for all, if you wish to contribute something not present
