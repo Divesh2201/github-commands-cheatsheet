@@ -79,6 +79,12 @@ Copy the url and change `/tree/<branch-name>` to `/trunk`
 #### Remove files from a Git repository
 27.  Remove files from the working tree and from the index : `git rm "<pathspec>..."` 
 
+28. To remove files stored in central git repo but not from local repo (use case: to add already commited file in .gitignore) : 
+    
+    `git rm -r --cached`
+
+29. If you wish to try what it does beforehand, add the -n to test things out : `git rm -r -n --cached`
+
 
 #### This Repo is open for all, if you wish to contribute something not present
 i) Fork the Repo
