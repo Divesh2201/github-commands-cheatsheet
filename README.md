@@ -81,9 +81,9 @@ Copy the url and change `/tree/<branch-name>` to `/trunk`
 
 28. To remove files stored in central git repo but not from local repo (use case: to add already commited file in .gitignore) : 
     
-    `git rm -r --cached`
+    `git rm -r --cached <filename>`
 
-29. If you wish to try what it does beforehand, add the -n to test things out : `git rm -r -n --cached`
+29. If you wish to try what it does beforehand, add the -n to test things out : `git rm -r -n --cached <filename>`
 
 
 #### This Repo is open for all, if you wish to contribute something not present
