@@ -85,7 +85,9 @@ Copy the url and change `/tree/<branch-name>` to `/trunk`
 
 29. If you wish to try what it does beforehand, add the -n to test things out : `git rm -r -n --cached <filename>`
 
-
+#### Git Co-authoring a Commit
+30. To co-author a commit: git co-commit -m "Commit message" --co "co-author <co-author-email>"
+ 
 #### This Repo is open for all, if you wish to contribute something not present
 i) Fork the Repo
 
